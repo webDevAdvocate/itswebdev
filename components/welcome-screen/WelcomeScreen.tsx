@@ -21,7 +21,7 @@ export const WelcomeScreen = () => (
         <div className="mx-auto flex flex-col justify-center py-10 md:container md:flex-row md:py-20">
             <div className="mx-5 flex max-w-2xl flex-col md:w-3/5 xl:mx-20">
                 <div className="mx-auto pb-5 md:w-4/5 lg:w-3/5">
-                    <Image alt={copy.logoAlt} src={logo} />
+                    <Image width={375} height={125} alt={copy.logoAlt} src={logo} />
                 </div>
                 <div className="p-3 text-center font-highlighted text-3xl text-orange lg:py-8 xl:text-5xl">
                     {copy.header}
@@ -40,7 +40,7 @@ export const WelcomeScreen = () => (
                 </div>
             </div>
             <div className="mx-auto mt-10 flex max-w-md justify-center md:mx-10 md:mt-0 md:w-2/5 md:flex-col">
-                <Image alt={copy.phoneAlt} src={phone} />
+                <Image width={448} height={796} alt={copy.phoneAlt} src={phone} />
             </div>
         </div>
     </section>
